@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 740px) {
     .navContainer {
         flex-direction: column;
         max-height: 500px;
