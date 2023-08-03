@@ -7,6 +7,7 @@ const Header = () => {
     <section id="header">
       <div className={styles.headerContent}>
         <h3>Patrick Baldez</h3>
+        <p>Web developer</p>
         <p className={styles.headerDescription}>
           Are you looking for a talented and passionate web developer to help
           bring your vision to life? Look no further! I specialize in creating
