@@ -1,0 +1,25 @@
+.contactContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.contactContainer ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactContainer ul li {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    padding: 10px;
+}
