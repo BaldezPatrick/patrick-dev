@@ -2,10 +2,41 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
 }
 
-.projectsContainer p {
-    font-size: 3rem;
+.projectCard {
+    background-color: #272343;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.projectCard > img {
+    width: 100%;
+}
+
+
+.projectsLinks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.projectsLinks button {
+    background-color: #FFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.projectsLinks button:hover {
+    transform: scale(1.1);
 }
