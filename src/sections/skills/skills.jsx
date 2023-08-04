@@ -9,7 +9,7 @@ const Skills = () => {
         <h3>Skills</h3>
         <div className={styles.cardContainer}>
           {dataSkills.map((item) => (
-            <CardComponent key={item.id}>
+            <CardComponent className={styles.card} key={item.id}>
               {item.icon} <p>{item.name}</p>
             </CardComponent>
           ))}
