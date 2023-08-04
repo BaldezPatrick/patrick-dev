@@ -1,7 +1,5 @@
-import styles from "../styles/CardComponent.module.css";
-
-const CardComponent = ({ children }) => {
-  return <article className={styles.card}>{children}</article>;
+const CardComponent = ({ children, className }) => {
+  return <article className={className}>{children}</article>;
 };
 
 export default CardComponent;
