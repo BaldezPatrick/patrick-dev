@@ -12,7 +12,7 @@ const Projects = () => {
           <img src={project.image} alt={project.alt} />
           <h5>{project.name}</h5>
           <p>{project.description}</p>
-          <p>Stacks utilizadas:</p>
+          <p>Tools:</p>
           <ul>
             {project.stacks.map((stack, index) => (
               <li key={index}>{stack}</li>
