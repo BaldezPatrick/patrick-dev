@@ -21,13 +21,24 @@ const Projects = () => {
           <div className={styles.projectsLinks}>
             <button>
               <Link
-                href={project.link}
+                href={project.linkGitHub}
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
                 Code
               </Link>
             </button>
+            {project.linkDemo && (
+              <button>
+                <Link
+                  href={project.linkDemo}
+                  target={"_blank"}
+                  rel="nooperner noreferrer"
+                >
+                  Demo
+                </Link>
+              </button>
+            )}
           </div>
         </CardComponent>
       ))}
