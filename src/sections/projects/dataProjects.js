@@ -26,9 +26,20 @@ const dataProjects = [
     name: "Timer Hero",
     stacks: ["HTML", "CSS", "JavaScript"],
     description:
-      "This project consists of a timer that can be started, paused, and restarted using interactive buttons. The time is displayed in a 24-hour format (hh:mm:ss) and is updated every second. Also, this is a project to show all the power of dynamism that JS offers to pages for manipulating the DOM..",
+      "This project consists of a timer that can be started, paused, and restarted using interactive buttons. The time is displayed in a 24-hour format (hh:mm:ss) and is updated every second. Also, this is a project to show all the power of dynamism that JS offers to pages for manipulating the DOM.",
     linkGitHub: "https://github.com/BaldezPatrick/timer-hero",
     linkDemo: "https://timer-hero.vercel.app/",
+  },
+  {
+    id: 4,
+    image: "assets/img/task-tracker-project.png",
+    alt: "Image of the Task Tracker project",
+    name: "Task Tracker",
+    stacks: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Task Tracker is a simple web application designed to help you remember and manage your daily tasks. You can easily add and delete tasks as you perform them.",
+    linkGitHub: "https://github.com/BaldezPatrick/task-tracker",
+    linkDemo: "https://task-tracker-delta-one.vercel.app/",
   },
 ];
 
