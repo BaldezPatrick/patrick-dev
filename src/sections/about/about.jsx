@@ -23,10 +23,11 @@ const About = () => {
           Along my journey, I've had the privilege to work on large-scale
           projects that have honed my problem-solving skills and deepened my
           understanding of software architecture. I'm also familiar with Python
-          and have utilized it for tasks requiring data processing and analysis.
+          and Java and have utilized it for tasks requiring data processing and
+          analysis.
         </p>
         <p>
-          I'm not just a developer; I'm a creative thinker who loves turning
+          I'm not just a developer. I'm a creative thinker who loves turning
           complex challenges into elegant solutions. I'm excited to continue
           growing and contributing to the ever-evolving world of technology.
         </p>
