@@ -35,7 +35,7 @@ const dataProjects = [
     image: "assets/img/task-tracker-project.png",
     alt: "Image of the Task Tracker project",
     name: "Task Tracker",
-    stacks: ["HTML", "CSS", "JavaScript"],
+    stacks: ["ReactJs", "NextJs", "i18Next"],
     description:
       "Task Tracker is a simple web application designed to help you remember and manage your daily tasks. You can easily add and delete tasks as you perform them.",
     linkGitHub: "https://github.com/BaldezPatrick/task-tracker",
