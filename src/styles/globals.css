@@ -96,3 +96,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 280px) {
+  footer p {
+    font-size: 14px;
+  }
+}
